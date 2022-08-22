@@ -39,24 +39,37 @@ header {
     }
 
 
-    #heroimage {
+    .hero-image {
+        background: #162d46;
+        background-repeat:no-repeat ;
         display:flex;
-        max-width: fit-content;  
+        height: 600px; 
+        font-family: roboto; sabs serif;
+        font: weight 700px;;
+        font-size: 45px;
+        text-align: center;
+        color: white;     
     }
+      
+    .btn1 {
+        background:#fff;
+        text-decoration:none;
+    }
+
 
     /* above this all good below not right yet */
     p {
         font-family: 'Roboto', sans-serif;
         }
 
-    # h1 {
+      
     position: center;
     color: blue;
     font-family: 'Roboto', sans-serif;
     text-shadow: 2px 2px; color: black;
     Font-weight: bold;
     font-size: 
-    }
+    
 
 /* fix this above - the text must be on the image */
    
