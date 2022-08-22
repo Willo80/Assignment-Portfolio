@@ -1,8 +1,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap');
 
+    #logo {
+        display:inline-flexbox;
+        padding-left:20px;
+    }
+
+
+
+    #heroimage {
+        display:flex;
+        max-width: fit-content;
+    }
+
 
     h1 {
+    position: center;
     color: blue;
     font-family: 'Roboto', sans-serif;
     text-shadow: 2px 2px; color: black;
