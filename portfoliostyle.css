@@ -12,6 +12,10 @@ body {
     flex-direction: column;
 }
 
+P {
+    font-family: roboto, sans-serif;
+}
+
 header {
     display: flex;
     height:5rem;
@@ -39,17 +43,28 @@ header {
     }
 
 
-    .hero-image {
+    .content {
         background: #162d46;
-        background-repeat:no-repeat ;
         display:flex;
         height: 600px; 
-        font-family: roboto; sabs serif;
-        font: weight 700px;;
+        padding: 10rem;
+        padding-left: 20rem;;
+        font-family: roboto, sans-serif;
+        font-weight: 700px;
         font-size: 45px;
         text-align: center;
         color: white;     
     }
+
+    .welcometext {
+    font-family: roboto, sans-serif;
+    font-weight: light;
+    display:flex;
+    align-items: center;
+    padding:
+}
+
+
       
     .btn1 {
         background:#fff;
@@ -58,9 +73,7 @@ header {
 
 
     /* above this all good below not right yet */
-    p {
-        font-family: 'Roboto', sans-serif;
-        }
+
 
       
     position: center;
