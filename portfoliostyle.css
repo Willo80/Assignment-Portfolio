@@ -74,6 +74,7 @@ header {
         
         
         
+        
 }
     .welcometext h4 {
         font-family: roboto, sans-serif;
@@ -81,6 +82,7 @@ header {
         text-shadow: 0px 0px 4px #efac14;
         animation: orange-to-white 3s;
         transition: ease-in 1s;
+        
              
   }
 
@@ -90,46 +92,28 @@ header {
     justify-content: center;
     background: #f5f5f5;
     margin: 0 0 1.25rem;
+
          
     }
 
     #social-media  a {
-        rules-for-the-icons
         color: #162d46;
         font-family: roboto, sans-serif;
         text-decoration: none;
-        margin: 0.5rem;
+        margin: 0.65rem;
         width: 2em;;
       }
 
-
-
-
-
-
-
-
-
-    /* above this all good below not right yet */
-
-
-      
-    position: center;
-    color: blue;
-    font-family: 'Roboto', sans-serif;
-    text-shadow: 2px 2px; color: black;
-    Font-weight: bold;
-    font-size: 
-    
-
-/* fix this above - the text must be on the image */
-   
-
-/* social media icons and links */
-
-
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 7 0 0 20;
 }
 
 
-}
+
+
+
+
+  
 
