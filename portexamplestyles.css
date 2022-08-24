@@ -43,6 +43,15 @@ header {
     }
 
 
+main {
+    display:flex;
+    flex-wrap: wrap;
+    background:#162d46;
+}
+
+.project1 {
+    
+}
 
 
 
