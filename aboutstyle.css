@@ -59,8 +59,20 @@ header {
         height: 400px;
         flex-direction: row;
         display: flex;
-        align-items: center;    
+        align-items: center; 
+       
+        justify-content: space-between;
+        
+        
     }
+
+
+#box1 {
+   
+    height: 300px;
+    width: 250px;
+}
+
 
     #p1 {
     
@@ -80,18 +92,18 @@ header {
             }
 
 
-
 section {
-    background:url(image-assets/KeyBoardThin-strip.jpg) #162d46;
+    background:url(image-assets/keyboard-thkStrip.jpg) #162d46;
     display: flex;
     flex-wrap: wrap;
-    height: 400px;
+    height: 250px;
     padding: 10px;
     justify-content:center;
     align-items: top;
     justify-content: center;
     margin: 2rem 0 2rem 0rem;
 }
+
 
 
 h1 {
