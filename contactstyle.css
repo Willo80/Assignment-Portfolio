@@ -51,43 +51,27 @@ header {
 
 /* main page content */
 
-.bgimage{
+#bgimage{
+    display: flex;
     background:url(image-assets/circuit-board.jpg) #162d46;
     background-repeat:none;
     display:flex;
     height: 600px; 
 }
 
-fieldset {
+form {
     display: flex;
     justify-content: center;
-    padding: 2rem;
+    margin: 10rem;
+    padding: 5rem;
     font-family: roboto, sans-serif;
     color: #fff;
     background: #efac14;
     border: #ffffff;
     border-style: double;
     border-width: 1rem;
-    border-radius: 2%;
-    height:50%;
-    
+    border-radius: 2%; 
 }
- legend {
-    font-family: roboto, sans-serif;
-    font-weight: 700;
-    font-size: 2rem;
-    color: #ffffff; 
-    margin: 1em;
- }
-
-#txtemail{
-   
-}
-
-
-
-
-
 
 
                  

@@ -24,16 +24,18 @@
     </header>
     <!-- contact form-->
     <main>
-        <main class="bgimage">
-        <fieldset>
-            <legend>Contact</legend>
-            <label id="txtemail">Email: <br />
-            <input type="Email" email="Email address"></label><br />
-            <label>mobile: <br />
-            <input type="Mobile"mobile="Mobile number"></label><br />
-           
-        </fieldset>
+        <main id="bgimage">
+            <!-- where does action page go -->
+            <form action="/action_page.php">  
+                <label for="Name">Name:</label><br>
+                <input type="text" id="Name" name="Name" value=""><br>
+                <label for="Email">Email:</label><br>
+                <input type="text" id="Email" name="Email" value=""><br>
+                <input type="Submit" value="Submit">
+              </form> 
     </main>
+
+
             <!-- Social Media Icons -->
        
             <nav id="social-media">
