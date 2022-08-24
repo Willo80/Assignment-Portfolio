@@ -41,7 +41,9 @@ header {
         color: #efac14; 
     }
 
-
+    main {
+        display: flex;
+    }
 
 
 
