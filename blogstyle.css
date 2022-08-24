@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+P {
+    font-family: roboto, sans-serif;
+}
+
+header {
+    display: flex;
+    height:5rem; 
+    padding: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    #logo {
+       height: 10vw;
+        padding-left:20px;
+    }
+
+    nav a {
+        color: #162d46;
+        font-family: roboto, sans-serif;
+        text-decoration: none;
+        margin: 0.5rem;
+    }
+
+    nav a:hover {
+        font-weight: 700;
+        text-decoration: underline;
+        color: #efac14; 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /* Social media icon links */
+
+  #social-media {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background: #f5f5f5;
+    margin: 0 0 1.25rem;    
+    }
+
+    #social-media  a {
+        color: #162d46;
+        font-family: roboto, sans-serif;
+        text-decoration: none;
+        margin: 0.65rem;
+        width: 2em;;
+      }
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 7 0 0 20;
+}
