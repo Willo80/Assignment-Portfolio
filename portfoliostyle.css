@@ -100,14 +100,16 @@ header {
         color: #162d46;
         font-family: roboto, sans-serif;
         text-decoration: none;
-        margin: 0.65rem;
-        width: 2em;;
+        margin: 0.65rem; 
+        width: 2em;
+        
       }
 
 footer {
     display: flex;
     justify-content: center;
     padding: 7 0 0 20;
+    margin: 3rem 0rem 0rem 0rem;
 }
 
 
