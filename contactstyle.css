@@ -75,8 +75,10 @@ h1 {
 }
 
 main {
+    flex-direction:column;
     height:50vh;
     justify-content: center;
+    align-items: center;
   
 }
 
@@ -86,7 +88,6 @@ form {
     flex-direction:column;
     align-content:center;
     height:300px;
-    margin:8rem;
     padding:5rem;
     font-family:roboto, sans-serif;
     color:#fff;
