@@ -43,6 +43,10 @@ header {
         color: #efac14; 
     }
 
+    #blog {
+        text-decoration: underline;
+       }
+
 article.blog-info {
     background: #f5f5f5;
     width: 17%;
