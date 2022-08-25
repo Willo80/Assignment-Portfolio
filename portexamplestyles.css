@@ -47,12 +47,52 @@ header {
         text-decoration: underline;
        }
 
+       h1 {
+        display: flex;
+        margin: 1rem;
+        font-family: roboto, sans-serif;
+        color: #f5f5f5;
+    }
 
-main {
-    display:flex;
-    flex-wrap: wrap;
-    background:#162d46;
-}
+    main {
+        display:flex;
+        flex-wrap: wrap; 
+        justify-content: space-around; 
+        /* flex-direction: row; */
+        background:url(image-assets/serveroom.jpg) #162d46;
+        /* height:400px ; */
+    }
+
+    div {
+        align-items: center;
+        margin: 5rem;
+        height:250px
+        
+        
+        
+    }
+
+    .project1 {
+            display: flex;
+            background:url(image-assets/CE\ project.png) no-repeat #d3d3d3;
+
+    }
+
+    .project2 {
+        display: flex;
+        background:url(image-assets/RedProject.png) no-repeat #d3d3d3;
+    }
+
+    .project3 {
+        display: flex;
+        background:url(image-assets/ImmuneProject.png) no-repeat #d3d3d3;
+    }
+
+    .project4 {
+        display: flex;
+        background:url(image-assets/webinars2.png) no-repeat #d3d3d3;
+    }
+
 
 
 
@@ -69,7 +109,7 @@ main {
     display: flex;
     width: 100%;
     justify-content: center;
-    background: #f5f5f5;   
+    background: #d3d3d3;   
     }
 
     #social-media  a {
@@ -84,5 +124,6 @@ footer {
     display: flex;
     justify-content: center;
     padding: 7 0 0 20;
+    margin-top: 1rem;
 }
 
