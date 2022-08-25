@@ -47,7 +47,7 @@ header {
         text-decoration: underline;
        }
 
-       h1 {
+       h2 {
         display: flex;
         margin: 1rem;
         font-family: roboto, sans-serif;
@@ -58,17 +58,14 @@ header {
         display:flex;
         flex-wrap: wrap; 
         justify-content: space-around; 
-        /* flex-direction: row; */
         background:url(image-assets/serveroom.jpg) #162d46;
-        /* height:400px ; */
     }
 
     div {
-        height: 250px;
+        height: 150px;
         width: 250px;
         align-items: center;
-        margin: 5rem;
-        height:250px;  
+        margin: 5rem; 
         text-align: center;
         
     }
@@ -81,7 +78,7 @@ header {
         border-style: solid;
         border-color: #f5f5f5;
        
-       
+    
             
     }
 
