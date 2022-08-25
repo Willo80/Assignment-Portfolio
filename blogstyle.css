@@ -44,6 +44,11 @@
         color: #efac14; 
     }
 
+    #blog {
+        text-decoration: underline;
+        color: #162d46;
+    }
+
 h1  {
     display: flex;
     justify-content: center;
