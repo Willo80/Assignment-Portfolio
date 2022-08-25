@@ -18,7 +18,7 @@ P {
     font-family: roboto, sans-serif;
 }
 
-header {
+    header {
     display: flex;
     height:5rem; 
     padding: 1.5rem;
@@ -28,7 +28,7 @@ header {
 
     #logo {
        height: 10vw;
-        padding-left:20px;
+       padding-left:20px;
     }
 
     nav a {
