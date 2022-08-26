@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Edu+TAS+Beginner:wght@400;600&display=swap');
     *{
         box-sizing: border-box;
         margin: 0;
@@ -45,17 +45,23 @@
         color: #efac14; 
     }
 
+    h1 {
+        display: flex;
+        flex-wrap: wrap;
+        font-family:'Aclonica', sans-serif;
+        font-size: 60px;
+        font-weight:400;
+        color: white;  
+    }
+
     .content {
         background:url(image-assets/keyboard-bg.jpg) #162d46;
         display:flex;
         height: 600px; 
         padding: 10rem;
-        padding-left: 10rem;;
-        font-family: roboto, sans-serif;
-        font-weight: 700px;
-        font-size: 35px;
-        text-align: center;
-        color: white;       
+        padding-left: 6rem;;
+       
+            
     }
 
     @keyframes orange-to-white {
@@ -79,6 +85,7 @@
         font-family: roboto, sans-serif;
         font-size: 40px; 
         font-weight: 400;
+        color: white; 
         text-shadow: 0px 0px 4px #efac14;
         animation: orange-to-white 3s;
         transition: ease-in 1s;           
