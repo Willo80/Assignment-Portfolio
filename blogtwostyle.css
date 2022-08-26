@@ -16,8 +16,10 @@
     }
 
     P  {
+         width: 300px;
          font-family: roboto, sans-serif; 
          color: #162d46;
+         margin: 1.5rem;
     }
 
     header {
@@ -73,52 +75,75 @@
     font-weight: bold;
 }
 
-#carol {
-    width: 250px;
-    border-radius: 2rem 0rem; 
-}
+/* #carol { */
+    /* width: 250px; */
+    /* border-radius: 2rem 0rem;  */
+/* } */
 
-blockquote{
-    width: 350px;
-    height: 225px; 
-    flex-wrap: wrap;
-    display:block; 
-    background: #ffff;
-    font-family:'Edu Tas Beginner',sans-serif; 
-    color: #162d46;
-    font-size: 18px;
-    text-align: justify;
-    padding: 15px 20px 15px 40px;
-    margin: 0 0 20px;
-    border-left: 15px solid #efac14;
-    border-right: 2px solid #efac14;
-    -moz-box-shadow: 2px 2px 15px #ccc;
-    -webkit-box-shadow: 2px 2px 15px #ccc;
-    box-shadow: 2px 2px 15px #ccc;
-}
+/* blockquote{ */
+    /* width: 350px; */
+    /* height: 225px;  */
+    /* flex-wrap: wrap; */
+    /* display:block;  */
+    /* background: #ffff; */
+    /* font-family:'Edu Tas Beginner',sans-serif;  */
+    /* color: #162d46; */
+    /* font-size: 18px; */
+    /* text-align: justify; */
+    /* padding: 15px 20px 15px 40px; */
+    /* margin: 0 0 20px; */
+    /* border-left: 15px solid #efac14; */
+    /* border-right: 2px solid #efac14; */
+    /* -moz-box-shadow: 2px 2px 15px #ccc; */
+    /* -webkit-box-shadow: 2px 2px 15px #ccc; */
+    /* box-shadow: 2px 2px 15px #ccc; */
+/* } */
 
-h2, h3, h4, h5  {
+ h2, h3, h4, h5  {
+    color:#162d46; 
+}
+ h2 {
+    width: 300px;
+    /* display: flex; */
+    margin: 1.5rem;
+ } 
+
+ section {
     display: flex;
-    color:#162d46;   
+    flex-wrap: wrap;
+    justify-content: center; 
+ }
+
+ .blogs {
+    display: flex;
+    justify-content: space-around;
+    margin: 0.5rem;
+ }
+
+hgroup {
+     text-align:left;
+    
 }
+ figure {
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    /* border: 1px solid #f5f5f5f5 */
+ }
 
+ figcaption{
+    font-size: 95%;
+    text-align: left;
+ }
 
-
-
-
-
-
+h3 {
+    /* display: flex; */
+    margin: 1.5rem;
+    width: 300px;
+    
+}
   
-
-
-
-
-
-
-
-
-
- 
     #social-media {
         display: flex;
         width: 100%;
