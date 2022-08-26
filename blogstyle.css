@@ -16,6 +16,7 @@
 
     P  {
          font-family: roboto, sans-serif; 
+         color: #162d46;
     }
 
     header {
@@ -70,15 +71,14 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
+    align-items: center;
     background: #f5f5f5;   
 }
 
-#robert {
-    font-family: roboto, sans-serif;
-    color: #162d46;  
+#color {
+    color: #efac14;
+    font-weight: bold;
 }
-
-
 
 
 #carol {
@@ -86,19 +86,21 @@ main {
     border-radius: 2rem 0rem 
 }
 
-#carol-color{
-    color: #efac14;
-    font-weight: bold;
+#robert {
+    width: 308px;
+    border-radius: 2rem 0rem 
 }
+
 
 blockquote{
     width: 350px;
-    height: 200px; 
+    height: 225px; 
     flex-wrap: wrap;
     display:block; 
     background: #ffff;
     font-family:'Edu Tas Beginner',sans-serif; 
-    font-size: 16px;
+    color: #162d46;
+    font-size: 18px;
     text-align: justify;
     padding: 15px 20px 15px 40px;
     margin: 0 0 20px;
@@ -109,15 +111,12 @@ blockquote{
     box-shadow: 2px 2px 15px #ccc;
 }
 
-figcaption { 
-    font-family: roboto, sans-serif; 
-    color: #162d46;
- } 
+section {
+    display: flex;
+    background: url(image-assets/typewriter.jpg)  #162d46;
+    height:400px;
+}
  
-
- 
-
-   
 
 
 
