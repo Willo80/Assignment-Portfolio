@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;600&display=swap');
     *{
         box-sizing: border-box;
         margin: 0;
@@ -15,7 +15,7 @@
     }
 
     P  {
-        font-family: roboto, sans-serif;
+         font-family: roboto, sans-serif; 
     }
 
     header {
@@ -55,7 +55,7 @@ h1  {
     padding: 0.5em;
     margin-left:1.5rem;
     color: #162d46;
-    font-family: roboto, sans-serif;
+    font-family: 'Edu Tas Beginner',sans-serif;
     font-weight: 700 bold;
 }
 
@@ -68,13 +68,39 @@ h1  {
 
 main {
     display: flex;
-    background: #162d46;
-    height: 400px;
+    flex-wrap: wrap;
+    width: 345px;
+    background: #f5f5f5;
     margin: 1rem;
+      
 }
 
+#carol {
+    display: flex;
+    border-radius: 2rem 0rem  
+}
 
+#carol-color{
+    color: #efac14;
+    font-weight: bold;
+}
 
+blockquote{
+    display: flex;
+    flex-wrap: wrap;
+    display:block; 
+    background: #ffff;
+    font-family:'Edu Tas Beginner',sans-serif; 
+    font-size: 16px;
+    text-align: justify;
+    padding: 15px 20px 15px 40px;
+    margin: 0 0 20px;
+    border-left: 15px solid #efac14;
+    border-right: 2px solid #efac14;
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 2px 2px 15px #ccc;
+}
 
 
 
