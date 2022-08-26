@@ -56,8 +56,9 @@
 
     .content {
         background:url(image-assets/keyboard-bg.jpg) #162d46;
+        background-repeat: none;
         display:flex;
-        height: 700px; 
+        height: 600px; 
         padding: 10rem;
         padding-left: 6rem;      
     }
