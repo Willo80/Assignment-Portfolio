@@ -63,6 +63,15 @@
         padding-left: 6rem;      
     }
 
+    /* background image */
+#bgimage {
+    display: flex;
+    background:url(image-assets/keyboard-bg.jpg) #162d46;
+    background-repeat:none;
+    height: 600px;  
+}
+
+
     @keyframes orange-to-white {
         from{
         color: #efac14;
@@ -72,7 +81,7 @@
         }
     }
 
-     .webdevtext h4 { 
+     .webdevtext { 
         display:flex;
         flex-direction:column;
         flex-wrap: wrap;
