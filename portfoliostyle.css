@@ -58,7 +58,7 @@
         background:url(image-assets/keyboard-bg.jpg) #162d46;
         background-repeat: none;
         display:flex;
-        height: 600px; 
+        /* height: 600px;  */
         padding: 10rem;
         padding-left: 6rem;      
     }
@@ -108,11 +108,12 @@
 
     footer {
         display: flex;
+        font-size:12px ;
         justify-content: center;
-        padding: 7 0 0 20;
         margin: 3rem 0rem 0rem 0rem;
+        padding: 7 0 0 20; 
+        box-sizing: border-box;
     }
-
 
 
 

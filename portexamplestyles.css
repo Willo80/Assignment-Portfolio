@@ -18,7 +18,7 @@ P {
     font-family: roboto, sans-serif;    
 }
 .para {
-    margin: 2rem; 
+    margin: 10px; 
     padding: 1em; 
     font-size: 16px; 
     color: #162d46; 
@@ -88,6 +88,7 @@ header {
 
     .project1 {
         display: flex;
+        margin: 50px;
         background:url(image-assets/CE\ project.png) no-repeat #d3d3d3;
         text-align: center;
         border-radius: 1em;
@@ -97,6 +98,7 @@ header {
 
     .project2 {
         display: flex;
+        margin: 50px;
         background:url(image-assets/RedProject.png) no-repeat #d3d3d3;
         border-radius: 1em;
         border-style: solid;
@@ -105,6 +107,7 @@ header {
 
     .project3 {
         display: flex;
+        margin: 50px;
         background:url(image-assets/ImmuneProject.png) no-repeat #d3d3d3;
         border-radius: 1em;
         border-style: solid;
@@ -113,6 +116,7 @@ header {
 
     .project4 {
         display: flex;
+        margin: 50px;
         background:url(image-assets/webinars2.png) no-repeat #d3d3d3;
         border-radius: 1em;
         border-style: solid;
